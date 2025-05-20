@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Conic Gradient Demo</title>
+<style>
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.fullscreen {
+  width: 100%;
+  height: 100%;
+  background: conic-gradient(#461965 0%, #73259a 33%, #8740f1 66%, #461965 100%);
+  animation: spin 8s linear infinite;
+}
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+</style>
+</head>
+<body>
+<div class="fullscreen"></div>
+</body>
+</html>
