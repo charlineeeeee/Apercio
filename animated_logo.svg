@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240.63 182.29">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+      .cls-1, .cls-3 {
+        stroke-width: .25px;
+      }
+      .cls-2 {
+        stroke-width: .5px;
+      }
+      .cls-2, .cls-3 {
+        isolation: isolate;
+        opacity: .4;
+      }
+    </style>
+    <linearGradient id="movingGradient" x1="0%" y1="0%" x2="100%" y2="0%" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#73259a" />
+      <stop offset="50%" stop-color="#461965" />
+      <stop offset="100%" stop-color="#8740f1" />
+      <animate attributeName="x1" values="0%;100%" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="100%;200%" dur="6s" repeatCount="indefinite" />
+    </linearGradient>
+    <clipPath id="frameClip">
+      <path d="M227.1,48.83l-28.6,29.5L119.43.27l-.24.24.76-.24L42.06,78.17l-30.68-29.42L.17,62.01l120.1,120.1,120.18-120.1-13.36-13.18h0ZM120.2,25.69l23.14,23.14-23.53,23.46-23.06-23.14,23.46-23.46h0ZM54.92,90.96l28.95-28.95,23.06,23.06-29.02,28.87-22.99-22.99h0ZM120.43,156.38l-29.73-29.66,28.95-28.95,29.66,29.66-28.87,28.95h0ZM162.17,114.65l-29.66-29.66,23.46-23.46v-.16l29.73,29.73-23.53,23.53h0Z"/>
+    </clipPath>
+  </defs>
+  <rect x="0" y="0" width="240.63" height="182.29" fill="url(#movingGradient)" clip-path="url(#frameClip)"/>
+  <g id="Layer_2-2" data-name="Layer 2">
+    <path class="cls-1" d="M227.1,48.83l-28.6,29.5L119.43.27l-.24.24.76-.24L42.06,78.17l-30.68-29.42L.17,62.01l120.1,120.1,120.18-120.1-13.36-13.18h0ZM120.2,25.69l23.14,23.14-23.53,23.46-23.06-23.14,23.46-23.46h0ZM54.92,90.96l28.95-28.95,23.06,23.06-29.02,28.87-22.99-22.99h0ZM120.43,156.38l-29.73-29.66,28.95-28.95,29.66,29.66-28.87,28.95h0ZM162.17,114.65l-29.66-29.66,23.46-23.46v-.16l29.73,29.73-23.53,23.53h0Z"/>
+    <g>
+      <polygon class="cls-2" points="42.06 78.17 54.85 90.96 61.52 84.29 48.73 71.5 42.06 78.17"/>
+      <polygon class="cls-3" points="77.84 114.02 90.7 126.81 97.37 120.14 84.5 107.36 77.84 114.02"/>
+      <polygon class="cls-3" points="198.48 78.25 185.62 91.04 178.95 84.37 191.81 71.58 198.48 78.25"/>
+      <polygon class="cls-3" points="162.17 114.65 149.3 127.43 142.63 120.77 155.5 107.98 162.17 114.65"/>
+      <polygon class="cls-3" points="83.87 62.01 96.74 49.22 103.4 55.89 90.54 68.68 83.87 62.01"/>
+      <polygon class="cls-3" points="155.97 61.46 143.33 48.83 136.67 55.5 149.3 68.13 155.97 61.46"/>
+    </g>
+  </g>
+</svg>
