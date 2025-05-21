@@ -21,11 +21,22 @@
       }
     </style>
     <linearGradient id="movingGradient" x1="0%" y1="0%" x2="100%" y2="0%" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#73259a" />
-      <stop offset="50%" stop-color="#461965" />
-      <stop offset="100%" stop-color="#8740f1" />
-      <animate attributeName="x1" values="0%;100%" dur="6s" repeatCount="indefinite" />
-      <animate attributeName="x2" values="100%;200%" dur="6s" repeatCount="indefinite" />
+      <stop offset="0%" stop-color="#73259a">
+        <animate attributeName="stop-color"
+                 values="#73259a;#461965;#8740f1;#73259a"
+                 keyTimes="0;0.33;0.66;1"
+                 dur="6s"
+                 calcMode="linear"
+                 repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#461965">
+        <animate attributeName="stop-color"
+                 values="#461965;#8740f1;#73259a;#461965"
+                 keyTimes="0;0.33;0.66;1"
+                 dur="6s"
+                 calcMode="linear"
+                 repeatCount="indefinite" />
+      </stop>
     </linearGradient>
     <clipPath id="frameClip">
       <path d="M227.1,48.83l-28.6,29.5L119.43.27l-.24.24.76-.24L42.06,78.17l-30.68-29.42L.17,62.01l120.1,120.1,120.18-120.1-13.36-13.18h0ZM120.2,25.69l23.14,23.14-23.53,23.46-23.06-23.14,23.46-23.46h0ZM54.92,90.96l28.95-28.95,23.06,23.06-29.02,28.87-22.99-22.99h0ZM120.43,156.38l-29.73-29.66,28.95-28.95,29.66,29.66-28.87,28.95h0ZM162.17,114.65l-29.66-29.66,23.46-23.46v-.16l29.73,29.73-23.53,23.53h0Z"/>
